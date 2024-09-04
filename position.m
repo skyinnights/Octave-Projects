@@ -1,0 +1,1 @@
+function p = position(v, theta)t = 0:0.1:1;g = -9.8;x = v*cos(deg2rad(theta)).*t;y = v*sin(deg2rad(theta)).*t-1/2*g.*t.^2;p = [t;x;y];endfunction
